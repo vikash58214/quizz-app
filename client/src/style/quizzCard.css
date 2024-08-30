@@ -1,0 +1,23 @@
+.quizz-card-bodyy {
+  width: 250px;
+  height: 70px;
+  background-color: #ffffff;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.quizzName {
+  font-size: large;
+  margin-top: 5px;
+  color: #474444;
+  font-weight: bold;
+}
+.quizzNum {
+  font-weight: bold;
+  color: #ff5d01;
+}
+.quizzDate {
+  color: #60b84b;
+  margin-top: 15px;
+}

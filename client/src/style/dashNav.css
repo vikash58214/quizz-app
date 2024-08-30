@@ -1,0 +1,45 @@
+.dashnav-body {
+  width: 200px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.dashnav-subBody {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.dashNavBtn-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+.navBtn {
+  background-color: #ffffff;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  height: 30px;
+}
+.logout-btn {
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #474444;
+  background-color: #ffffff;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  border: 2px solid red;
+}

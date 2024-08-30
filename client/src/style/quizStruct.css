@@ -1,0 +1,182 @@
+.quiz-struct-body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.797);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.quiz-struct-subBody {
+  width: 845px;
+  border-radius: 8px;
+  height: 550px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.quiz-struct-container {
+  height: 500px;
+  width: 80%;
+}
+.quiz-struct-tab-body {
+  display: flex;
+  justify-content: space-between;
+}
+.quiz-struct-tab-container {
+  display: flex;
+  gap: 10px;
+}
+.tab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quiz-add-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 40px;
+  background: none;
+  color: #969696;
+  border: none;
+}
+.max-5 {
+  color: #969696;
+  font-size: large;
+}
+.quiz-struct-input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: large;
+  padding-left: 5px;
+  outline: none;
+}
+.option-type-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.radio-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #969696;
+  font-size: large;
+}
+.option-p {
+  font-size: large;
+  color: #969696;
+}
+.quiz-struct-btns-container {
+  display: flex;
+  width: 80%;
+  position: absolute;
+  bottom: 20px;
+
+  justify-content: space-between;
+}
+.struct-cancel-btn {
+  width: 40%;
+  background-color: #ffffff;
+  height: 40px;
+  cursor: pointer;
+  color: #474444;
+  font-weight: bold;
+  border: none;
+  font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.struct-createQuiz-btn {
+  width: 40%;
+  background-color: #60b84b;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.struct-quiz-options-timer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.timer-body {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-between;
+}
+.timer-btn {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #9f9f9f;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+.timer-selected-btn {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  background: red;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+.timer-p {
+  margin-top: 30px;
+  color: #9f9f9f;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.add-options-input {
+  width: 80%;
+  height: 35px;
+  padding-left: 5px;
+  outline: none;
+  font-size: large;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+}
+.add-option-btn {
+  width: 81%;
+  height: 35px;
+  outline: none;
+  font-size: large;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.text-imageUrl-div {
+  display: flex;
+  width: 200px;
+}

@@ -1,0 +1,72 @@
+.dashboard-body {
+  width: 100%;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.dashboard-subBody {
+  width: 80%;
+  height: 80vh;
+}
+.dashboard-analytics {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-total-quizz {
+  width: 300px;
+  background-color: #ffffff;
+  height: 130px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+}
+.quizz-h1 {
+  font-weight: bolder;
+  font-size: 45px;
+  padding: 0;
+  color: #ff5d01;
+  margin: 0;
+}
+.quizz-p {
+  color: #ff5d01;
+  font-weight: bolder;
+}
+
+.q-created-h1 {
+  font-weight: bolder;
+  font-size: 45px;
+  padding: 0;
+  color: #60b84b;
+  margin: 0;
+}
+.q-created-p {
+  color: #60b84b;
+  font-weight: bolder;
+}
+.impression-h1 {
+  font-weight: bolder;
+  font-size: 45px;
+  padding: 0;
+  color: #5076ff;
+  margin: 0;
+}
+.impression-p {
+  color: #5076ff;
+  font-weight: bolder;
+}
+.dashboard-trending-body {
+  margin-top: 90px;
+}
+.trending-h1 {
+  color: #474444;
+}
+
+.quizz-card-body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 24px;
+}

@@ -1,0 +1,86 @@
+.signup-body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-subBody {
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  align-items: center;
+}
+.signup-formBody {
+  width: 55%;
+  min-height: 70vh;
+}
+.login-switch {
+  width: 200px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #474444;
+  height: 30px;
+}
+.login-switch:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(20, 148, 203, 0.32) 0px 2px 16px 0px;
+}
+.signup-switch-body {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.register-input-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.signup-input {
+  width: 400px;
+  height: 35px;
+  background-color: #f4f4f4;
+  border-radius: 10px 10px 0px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  outline: none;
+}
+.signup-input::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+.signup-label {
+  color: #474444;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+.signup-form-body {
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.signup-btn {
+  width: 200px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  background-color: #a9bcff;
+  color: #474444;
+  font-weight: bold;
+  cursor: pointer;
+}
